@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "zsjsxkxmrlvite",
-    "password": "f5e261a220dc2360c3f66f967160810eda8fed209df68d1785118cd98559623f",
-    "database": "dbb83a3pja74u5",
-    "host": "ec2-34-247-172-149.eu-west-1.compute.amazonaws.com",
+    "username": "root",
+    "password": null,
+    "database": "database_development",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "test": {
-    "username": "zsjsxkxmrlvite",
-    "password": "f5e261a220dc2360c3f66f967160810eda8fed209df68d1785118cd98559623f",
-    "database": "dbb83a3pja74u5",
-    "host": "ec2-34-247-172-149.eu-west-1.compute.amazonaws.com",
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "zsjsxkxmrlvite",
-    "password": "f5e261a220dc2360c3f66f967160810eda8fed209df68d1785118cd98559623f",
-    "database": "dbb83a3pja74u5",
-    "host": "ec2-34-247-172-149.eu-west-1.compute.amazonaws.com",
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
     "dialect": "postgres"
   }
 }
