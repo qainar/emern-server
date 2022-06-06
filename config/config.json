@@ -14,10 +14,13 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "zsjsxkxmrlvite",
-    "password": null,
-    "database": "dbb83a3pja74u5",
-    "host": "ec2-34-247-172-149.eu-west-1.compute.amazonaws.com",
-    "dialect": "postgres"
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
